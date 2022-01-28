@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+background-color: #E7FBBE;
+}
+
+div.background {
+  background: url(image/bihar1.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px;
+  opacity: 0.5;
+}
+
+div.transbox p {
+  text-align: center;
+  font-size: 70px;
+  margin: 5%;
+  font-weight: bold;
+  color: #064635;
+}
+
+
+.text-block {
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  background-color: #557C55;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 5%;
+
+}
+
+.btn1{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 15%;
+
+}
+
+.btn2{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 25%;
+
+}
+
+.btn3{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 35%;
+
+}
+
+.btn4{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 45%;
+
+}
+
+.btn5{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 55%;
+
+}
+
+.btn6{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 65%;
+
+}
