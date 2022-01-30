@@ -23,19 +23,42 @@
   
       </div>
        
-      <div class="containor">
+      <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="togglepopup()" >&times;
+          </div>
+           <h1>Jute</h1>
+           <p>Jute fabric is a type of textile fiber made from the jute plant. While there are a few different botanical varieties of jute, one of the main species used to make jute fabric is Corchorus olitorius (white jute). However, another species of jute, called Corchorus capsularis (tossa jute) is considered to be superior even though it is harder to cultivate.</p>
+
+
+        </div>  
+      </div>
+
+
+       <div class="containor">
         <a href="" class="btn">Rice</a>
         <a href="" class="btn1">Wheat</a>
         <a href="" class="btn2"> Pulses</a>
         <a href="" class="btn3">Vegetables</a>
         <a href="" class="btn4">Maize</a>
-        <a href="" class="btn5"> Sugarcane</a>
-        <a href="" class="btn6"> Jute</a>
+        <a href="" class="btn5"  onclick="togglepopup()" > Sugarcane</a>
+        <button class="btn6" onclick="togglepopup()"> Jute</button>
 
       </div>
      </section>
+
+     <section>
+       <div class="text-block1">
+         <h1>Soil Composition</h1>
+       </div>
+
+       <div class="soilimage">
+         <img src="image/soilmap.jpeg" alt=""  height="400" width="600">
+       </div>
+     </section>
     
 
-
+<script src="index.js" charset="utf-8"></script>
 </body>
 </html>
