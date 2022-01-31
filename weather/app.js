@@ -14,7 +14,7 @@ const app = {
       let key = '781e33fc6a7defeb89bdacf747671bb2';
       let lang = 'en';
       let units = 'metric';
-      let url = `http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${key}&units=${units}&lang=${lang}`;
+      let url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${key}&units=${units}&lang=${lang}`;
       //fetch the weather
       fetch(url)
         .then((resp) => {
