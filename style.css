@@ -84,6 +84,7 @@ nav img /*for the logo*/
   transition: 1s;
 }
 /*to hide the menu and close icons from pc browsers view*/
+
 nav .fa{
   display: none;
 }
@@ -114,6 +115,7 @@ nav .fa{
     cursor: pointer;
   }
   /*--------to make some space around the menus-----------*/
+  
   .nav-links{
     padding: 30px;
   }
@@ -194,7 +196,7 @@ svg path:hover{
 
 /*------------MAJORRRR CROPSSS---------------*/
 
-#crops
+/*#crops
   {
     margin: 0;
     padding: 0;
@@ -288,8 +290,8 @@ svg path:hover{
   }
   #radio4:checked~ .navigation-auto .auto-btn4{
     background: #40D3DC;
-  }
-/*#crops{
+  }*/
+#crops{
   width: 80%;
   margin: auto;
   text-align: center;
@@ -342,7 +344,7 @@ svg path:hover{
   padding-top: 100px;
 }
 
-*/
+
 
 
 
