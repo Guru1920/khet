@@ -1,0 +1,27 @@
+<html>
+    <body bgcolor=#D9D7F1>
+
+        <center>
+
+        <h1> Find out the most suitable crop to grow in your farm </h1><br>
+
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Nitrogen :    <input type="text", name='a', placeholder="nitrogen_content"> <br><br>
+               Phosphorous : <input type="text", name='b', placeholder=""> <br><br>
+               Pottasium :   <input type="text", name='c', placeholder=""> <br><br>
+               Temperature : <input type="text", name='d', placeholder=""> <br><br>
+               Humidity:     <input type="text", name='e', placeholder=""> <br><br>
+               Ph:           <input type="text", name='f', placeholder=""> <br><br>
+               Rainfall:     <input type="text", name='g', placeholder=""> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        {% if data %}
+           <h1> <b>You should grow <i>{{ data }} </i>in your farm</b></h1>
+
+            {% endif %}
+
+    </center>
+
+    </body>
+</html>
