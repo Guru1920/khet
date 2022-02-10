@@ -232,32 +232,70 @@
        </div>
     </section>
 <!--MAJOR CROPSSSSSS THROUGHOUT THE COUNTRY-->
-<section id="crops">
-    <h1>Three major crops of the country</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae modi tempora, delectus dignissimos ad porro voluptas! Nesciunt saepe, exercitationem quis possimus similique architecto magni? Officia tenetur amet pariatur quidem! Voluptatum.</p>
-    
-    <div class="row">
-        <div class="crops-col">
-            <img src="images/ricec.png";>
-            <div class="layer">
-                <h3>RICE</h3>
-            </div>
-        </div>
-        <div class="crops-col">
-            <img src="images/wheat.jpg";>
-            <div class="layer">
-                <h3>WHEAT</h3>
-            </div>
-        </div>
-        <div class="crops-col">
-            <img src="images/tea.jpg";>
-            <div class="layer">
-                <h3>TEA</h3>
-            </div>
-        </div>
-    </div>
 
+<div>
+<div>
+     <h1>Three major crops of the country</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae modi tempora, delectus dignissimos ad porro voluptas! Nesciunt saepe, exercitationem quis possimus similique architecto magni? Officia tenetur amet pariatur quidem! Voluptatum.</p>
+</div>
+   </div>
+    
+    <section id="crops">
+    
+    <div class="slider" id="crops-slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- radio btn end -->
+            <div class="slide first">
+                <img src="./image/1.jpeg" >
+            </div>
+            <div class="slide">
+                <img src="./image/2.jpeg" >
+            </div>
+            <div class="slide">
+                <img src="./image/3.jpeg" >
+            </div>
+            <div class="slide">
+                <img src="./image/4.jpeg" >
+            </<div>
+                
+            <!-- auto matic nevigation start -->
+            <div class="naveigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+        <!-- mannual navigation  -->
+        <div class="navigaion-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+
+    </div>
+    <script type="text/javascript">
+        var cnt=1;
+       setInterval(function(){
+           document.getElementById('radio'+cnt).checked=true;
+           cnt++;
+            if(cnt>4)
+            {
+                cnt=1;
+            }
+       },5000);
+    </script>
+    
+    
 </section>
+
 
 <!--TECHNOLOGICAL AIDSSSSSS-->
 <section id="tech-aids">
