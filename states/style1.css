@@ -5,7 +5,7 @@
 
 
 body{
-background-color: #E7FBBE;
+background-color: #273607;
 }
 
 div.background {
@@ -32,7 +32,7 @@ div.transbox p {
 .text-block {
   position: absolute;
   top: 35%;
-  left: 3%;
+  left: 30%;
   background-color: #557C55;
   color: white;
   padding-left: 20px;
@@ -201,12 +201,77 @@ div.transbox p {
   left: 65%;
 
 }
+.btn7{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 75%;
 
+}
+.btn8{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 85%;
+
+}
+.btn9{
+  display :inline-block;
+  text-decoration: none;
+  background-color: #91C788;
+  color: #fff;
+  width: 120px;
+  height:120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
+  border-bottom: solid 3px #52734D;
+  transition: 0.45;
+  position: absolute;
+  font-size: 25px;
+  top: 45%;
+  left: 95%;
+
+}
 
 .text-block1 {
   position: absolute;
   top: 70%;
-  left: 3%;
+  left: 30%;
   background-color: #557C55;
   color: white;
   padding-left: 20px;
@@ -217,8 +282,9 @@ div.transbox p {
 
 .soilimage{
   position: absolute;
+  margin: auto;
   top: 80%;
-  left: 3%;
+  left: 30%;
 
 }
 
@@ -270,4 +336,217 @@ div.transbox p {
   transition: all  300ms ease-in-out;
   transform: translate(-50%,-50%) scale(1);
 
+}
+.crops{
+  position: absolute;
+  top: 150%;
+  left: 30%;
+  background-color: #557C55;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container1{
+  position: absolute;
+  top: 160%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color:black ;
+  display: inline-block;
+  text-align: center;
+}
+#crop1{
+  float: right;
+  top: 140%;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+
+#container2{
+  position: absolute;
+  top: 220%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop2{
+  float: left;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+#container3{
+  position: absolute;
+  top: 280%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop3{
+  float: right;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+
+#container4{
+  position: absolute;
+  top: 340%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop4{
+  float: left;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+
+#container5{
+  position: absolute;
+  top: 400%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop5{
+  float: right;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+
+#container6{
+  position: absolute;
+  top: 460%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop6{
+  float: left;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+
+#container7{
+  position: absolute;
+  top: 520%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop7{
+  float: right;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+
+#container8{
+  position: absolute;
+  top: 580%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop8{
+  float: left;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+
+#container9{
+  position: absolute;
+  top: 640%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop9{
+  float: right;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+
+#container10{
+  position: absolute;
+  top: 700%;
+  height: 350px;
+  overflow-y: scroll;
+  width: 90%;
+  margin: 50px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+#crop10{
+  float: left;
+  border: 5px green;
+  margin: 15px;
+  height: 300px;
+  width: 300px;
+}
+.three{
+  font-size:large;
 }
