@@ -3,12 +3,30 @@
   padding: 0;
 }
 
-
 body{
-background-color: #273607;
+  background-color:cadetblue;
+}
+/*
+body{
+background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+animation: change 10s ease-in-out infinite;
 }
 
+@keyframes change{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+*/
+
 div.background {
+ 
   border: 2px solid black;
 }
 
@@ -59,7 +77,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 5%;
+  
 
 }
 
@@ -82,7 +100,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 15%;
+  left: 10%;
 
 }
 
@@ -105,7 +123,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 25%;
+  left: 20%;
 
 }
 
@@ -128,7 +146,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 35%;
+  left: 30%;
 
 }
 
@@ -151,7 +169,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 45%;
+  left: 40%;
 
 }
 
@@ -174,7 +192,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 55%;
+  left: 50%;
 
 }
 
@@ -197,7 +215,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 65%;
+  left: 60%;
 
 }
 .btn7{
@@ -219,7 +237,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 75%;
+  left: 70%;
 
 }
 .btn8{
@@ -241,7 +259,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 85%;
+  left: 80%;
 
 }
 .btn9{
@@ -263,7 +281,7 @@ div.transbox p {
   position: absolute;
   font-size: 25px;
   top: 45%;
-  left: 95%;
+  left: 90%;
 
 }
 
