@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Price</title>
+    <link rel="stylesheet" href="style.css">
+   <!--   <link rel="stylesheet" href="./jquery.js">-->
+</head>
+<body>
+  <main action="/" class="crop_price" method="POST">
+
+<div class="login-div">
+    <div class="logo">
+        <img class="logo-img" src="./WhatsApp Image 2022-02-13 at 16.26.46.jpeg" alt="" height="100px" width="100px" > </div>
+    <div class="title">Market Price</div>
+    <div class="container">
+        <div class="f-group">
+            <label for="State"></label>
+            <select name="slct1" id="slct1" onchange="populate(this.id,'slct2')">
+                <option value=""> -- Choose State --</option>
+                <option value="andhra pradesh">Andhra Pradesh</option>
+                <option value="arunachal pradesh">Arunachal Pradesh</option>
+                <option value="assam">Assam</option>
+          <option value="bihar">Bihar</option>
+          <option value="chhattisgarh">Chhattisgarh</option>
+          <option value="goa">Goa</option>
+          <option value="gujarat">Gujarat</option>
+          <option value="haryana">Haryana</option>
+          <option value="himachal pradesh">Himachal Pradesh </option>
+          <option value="jharkhand">Jharkhand</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="kerala">Kerala</option>
+          <option value="madhya pradesh">Madhya Pradesh</option>
+          <option value="maharashtra">Maharashtra</option>
+          <option value="manipur">Manipur</option>
+          <option value="meghalaya">Meghalaya</option>
+          <option value="mizoram">Mizoram</option>
+          <option value="nagaland">Nagaland</option>
+          <option value="odisha">Odisha</option>
+          <option value="punjab">Punjab</option>
+          <option value="rajasthan">Rajasthan</option>
+          <option value="sikkim">Sikkim</option>
+          <option value="tamil nadu">Tamil Nadu</option>
+          <option value="telangana">Telangana</option>
+          <option value="tripura">Tripura</option>
+          <option value="uttar pradesh">Uttar Pradesh</option>
+          <option value="uttarakhand">Uttarakhand</option>
+          <option value="west bengal">West Bengal</option>
+          <option value="jammu and kashmir ">Jammu and Kashmir </option>
+      </select>
+    </div>
+
+ <!--  <div class="f-group">
+<label for="">City</label>
+<select name="slct2" id="slct2"></select>
+</div>-->
+
+</div>
+<div class="enter">
+    
+    <form action="">
+        <label for="crop name"></label>
+        <input type="" id="crop" name="crop" placeholder="--Enter the crop--">
+    </form>
+</div>
+</div>
+<script src="./jquery.js">
+    
+    
+function populate(s1,s2)
+{
+    var s1 = document.getElementById(s1);
+    var s2 = document.getElementById(s2);
+    s2.innerHTML ="";
+    if(s1.value == "jammu and kashmir")
+    {
+        var optionArray =[]
+    }
+}
+
+</script>
+
+  </main>
+</body>
+</html>
